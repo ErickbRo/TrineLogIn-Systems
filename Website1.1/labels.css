@@ -1,0 +1,23 @@
+label{
+    font-family: "cooper black";
+    color: #000;
+}
+button{
+    background-color: white;
+    border-radius: 5px;
+}
+.btnNavigators{
+    cursor: pointer;
+    text-align: center;
+    color: blue;
+}
+.btnNavigators button:hover{
+    background: #ffc107;
+    color: #000;
+    display: inline-block;
+}
+.btnNavigators button:hover{
+    background: #ffc107;
+    color: #000;
+    display: inline-block;
+}

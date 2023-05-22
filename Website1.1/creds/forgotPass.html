@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="/style.css" />
+    <body>
+      <div class="forgotPass">
+        <img
+          src="/icons/user.png"
+          alt="Image Unavailable at the moment"
+          class="avatar"
+        />
+        <h1>Recover Password</h1>
+        <form>
+          <br />
+          <p>Last Name</p>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Enter Last Name"
+            required
+          />
+          <p>Username</p>
+          <input
+            type="text"
+            name=""
+            id="uname"
+            placeholder="Enter Username"
+            required
+          />
+          <p>Email</p>
+          <input
+            type="email"
+            name=""
+            placeholder="Enter Email"
+            id="email"
+            required
+          />
+          <input
+            type="button"
+            onclick="recoverpass()"
+            name=""
+            value="Recover"
+          />
+          <a href="/index.html">
+            <input
+              type="button"
+              href="/index.html"
+              name=""
+              value="Back to Login"
+            />
+          </a>
+          <br />
+        </form>
+        <br />
+        <p id="err" style="color: green"></p>
+        <br />
+        <label id="passwd" style="color: red"></label>
+        <h1></h1>
+      </div>
+    </body>
+  </head>
+  <script src="/index.js"></script>
+</html>

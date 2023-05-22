@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(icons/icon1.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: transparent;
+    border: 2px solid rgba(12, 223, 23, 0.678);
+    border-radius: 20px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+    color: #fff;
+    background-color: rgb(111, 180, 7);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    background:transparent;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(111, 180, 7);
+    border-radius: 15px;
+    font-size: 18px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgreen;
+}
+.loginbox a:hover{
+    color: chartreuse;
+
+}
+.loginbox input[type="checkbox"]{
+    margin: 0;
+    padding: 0;
+}
+.signupbox{
+    width: 320px;
+    height: 580px;
+    background: transparent;
+    border: 2px solid rgba(12, 223, 23, 0.678);
+    border-radius: 20px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signupbox input{
+    width: 100%;
+    background:transparent;
+    margin-bottom: 20px;
+}
+.signupbox input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(111, 180, 7);
+    border-radius: 15px;
+    font-size: 18px;
+}
+.signupbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.signupbox a:hover{
+    color: chartreuse;
+
+}
+.signupbox input[type="checkbox"]{
+    margin: 0;
+    padding: 0;
+}
+.forgotPass{
+    width: 320px;
+    height: 480px;
+    background: transparent;
+    border: 2px solid rgba(12, 223, 23, 0.678);
+    border-radius: 20px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;   
+}
+.forgotPass p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;   
+}
+.forgotPass input{
+    width: 100%;
+    background:transparent;
+    margin-bottom: 20px;
+}
+.forgotPass  input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.forgotPass input[type="submit"]:hover,input[type="button"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.forgotPass a:hover{
+    color: chartreuse;
+
+}
+.forgotPass input[type="submit"], input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(111, 180, 7);
+    border-radius: 15px;
+    font-size: 18px;   
+}
